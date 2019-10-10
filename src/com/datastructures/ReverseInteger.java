@@ -11,6 +11,8 @@ public class ReverseInteger {
 		while(num!=0)
 		{
 			reverse= reverse*10+num%10;
+			//added  comments
+			
 			num= num/10;
 		}
 		
